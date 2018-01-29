@@ -4,16 +4,11 @@
   "private": true,
   "description": "Example project from an angular.io guide.",
   "scripts": {
-    "ng": "ng",
     "build": "webpack",
-    "serve": "ng serve --aot",
-    "test": "karma start ./karma.conf.js",
     "lint": "tslint ./src/**/*.ts -t verbose",
-    "e2e:old": "ng e2e --aot --i18nFile=src/locale/messages.fr.xlf --i18nFormat=xlf --locale=fr",
-    "serve:fr": "ng serve --aot --i18nFile=src/locale/messages.fr.xlf --i18nFormat=xlf --locale=fr",
-    "build:fr": "ng build --prod --i18nFile=src/locale/messages.fr.xlf --i18nFormat=xlf --locale=fr",
     "extract": "ng xi18n --outputPath=src/locale",
-    "start": "webpack-dev-server --port=4200",
+    "start": "npm run serve",
+    "serve": "webpack-dev-server --port=4200",
     "pree2e": "webdriver-manager update --standalone false --gecko false --quiet",
     "e2e": "protractor ./protractor.conf.js"
   },
