@@ -4,7 +4,19 @@
 
 <ng-container i18n>I don't output any element</ng-container>
 
-<home></home>
+<router-outlet></router-outlet>
+
+<ul>
+  <li>
+    <a routerLink="/home" i18n>Home</a>
+  </li>
+  <li>
+    <a routerLink="/imprint" i18n>Imprint</a>
+  </li>
+  <li>
+    <a routerLink="/bla" i18n>Unknown</a>
+  </li>
+</ul>
 
 <img [src]="logo" i18n-title title="Angular logo" />
 <br>
