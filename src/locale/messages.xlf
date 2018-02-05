@@ -70,6 +70,24 @@
           <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="b235923b52880260eda54242d75a52d8f50ad3f9" datatype="html">
+        <source>
+  Test home component
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e80fde081f60d3221cd2b6fa8ba1580768dd0cc4" datatype="html">
+        <source>
+  Test text in English.
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
